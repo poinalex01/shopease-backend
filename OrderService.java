@@ -15,4 +15,8 @@ public class OrderService {
     public void cancelOrder(String orderId) {
         System.out.println("Order cancelled: " + orderId);
     }
+
+    public void refundOrder(String orderId, double amount) {
+        System.out.println("Refund of " + amount + " issued for order: " + orderId);
+    }
 }

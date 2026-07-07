@@ -1,7 +1,7 @@
 public class OrderService {
 
     public void createOrder(String productName, int quantity) {
-        System.out.println("Order created: " + quantity + "x " + productName);
+        System.out.println("Order created: " + quantity + "x " + productName + " (priority: normal)");
     }
 
     public void logOrderStatus(String orderId, String status) {
